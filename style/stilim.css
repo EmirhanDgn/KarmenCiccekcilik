@@ -1,0 +1,535 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(../images/bg2.jpg) repeat;
+	background-repeat:repeat;
+     font-family:Open Sans,sans-serif;
+     overflow-x:hidden;
+}
+
+#language {
+	 margin:auto;
+	 width:1200px;
+	 padding-bottom:20;
+	 text-align:right;
+}
+
+#language ul {
+     list-style: none;
+	 line-height: 2; 
+}
+
+#language ul li {
+	 float:right;	
+}
+
+#icerik {
+	margin:auto;
+	 width:1200px;
+	 opacity:2;
+}
+
+#icerik-opacity {
+	margin:auto;
+	 background-color:#FFF;
+	 width:1200px;
+	 height:0px;
+	 border-radius: 10px 10px 10px 10px;
+	
+}
+
+#icerik2 {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:750px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 1;
+     filter: alpha(opacity=80);
+}
+	
+#menu ul {
+     list-style: none;
+	 line-height: 2; 
+}
+
+#menu {
+	 width:1300px;
+	 margin:auto;
+}
+
+a {
+	 text-decoration: none;
+}
+
+#menu ul li {
+	 float: left;
+	 background:url(../images/button.jpg) no-repeat top right;
+	 margin-top:-40px;
+	
+}
+
+#menu li a {
+	 display: block;
+	 float: left;
+	 padding:15px 39px;
+	 font: bold 12px Verdana,sans-serif ;
+	 color: #F3EFEF;
+	 height: 25px;
+	 z-index:91;
+}
+#menu ul a:hover {
+	 color: #FFB404;
+	 background:url(../images/button.jpg) no-repeat top right;
+}
+
+/*------EN-MENU---*/
+
+#en-menu ul {
+     list-style: none;
+	 line-height: 2; 
+}
+
+#en-menu {
+	 width:1300px;
+	 margin:auto;
+}
+
+#en-menu ul li {
+	 float: left;
+	 background:url(../images/button.jpg) no-repeat top right;
+	 margin-top:-40px;
+	
+}
+
+#en-menu li a {
+	 display: block;
+	 float: left;
+	 padding:13px 30px;
+	 font: bold 12px Verdana,sans-serif ;
+	 color: #F3EFEF;
+	 height: 25px;
+	 z-index:91;
+}
+#en-menu ul a:hover {
+	 color: #FFB404;
+	 background:url(../images/button.jpg) no-repeat top right;
+}
+
+/*------EN-MENU END---*/
+
+#logo {
+	 position:absolute;
+	 margin-left:40px;
+	 top:18px;
+}
+
+#logo-sag {
+	 position:absolute;
+	 margin-left:450px;
+	 top:38px;
+}
+
+#social-ust1 {
+	 position:absolute;
+	 margin-left:1090px;
+	 top:50px;
+}
+
+#social-ust2 {
+	 position:absolute;
+	 margin-left:1140px;
+	 top:50px;
+}
+
+#wowslider-container {
+	 position:absolute;
+	 -webkit-transform: translateY(-50%) translateX(-50%);
+	 transform: translateY(-50%) translateX(-50%);
+	 margin:0px auto 0px; 
+}
+
+#field1 { 
+     position: absolute; 
+     width: 225px; 
+	 height: 85px; 
+	 left: 176px; 
+	 top: 627px; 
+}
+
+#field2 { 
+     position: absolute; 
+   	 width: 225px; 
+ 	 height: 85px; 
+	 left: 630px; 
+	 top: 627px;
+}
+
+#field3 { 
+     position: absolute; 
+	 width: 225px; 
+	 height: 85px; 
+	 left: 1004px; 
+	 top: 627px; 
+}
+
+#field1 img {
+	 left: -70px; 
+	 position: absolute;
+     top: 5px;
+}
+
+#field2 img {
+	 left: -70px; 
+	 position: absolute;
+     top: 5px;
+}
+
+#field3 img {
+	 left: -70px; 
+	 position: absolute;
+     top: 5px;
+}
+
+#taban {
+	 margin-left:-3px;
+	 margin-top:-2px;
+	 border:solid;
+	 border-color:#630;
+	 background-color:#630;
+	 height:300px;
+	 width:1204px;
+	 border-radius: 10px 10px 10px 10px;
+	 z-index:99;
+}
+
+#taban li {
+	list-style-image:url(../images/tick.png);
+	 padding-left: 10px; 
+	 color:#CCC;
+}
+
+#taban h4 {
+    background:url(../images/footer_underline2.png) no-repeat left bottom;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #bababa;
+    font-size: 1.3em;
+	font-family:Segoe Print, "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+#biz {
+	margin-left:15px;
+	float: left;
+    margin-right: 20px;
+    width: 350px;	
+}
+
+.biz {
+	margin-top:36px;
+	margin-left:25px;
+	float: left;
+    margin-right: 20px;
+    width: 350px;	
+}
+
+#social {
+	
+	margin-left:35px;
+	float: left;
+    margin-right: 20px;
+    width: 350px;
+}
+
+#social1 img {
+	margin-left:10px;
+	margin-top:5px;
+	position:absolute;
+}
+
+#social2 img {
+	margin-left:140px;
+	margin-top:5px;
+	position:absolute;
+}
+
+#cevir {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: 4s;
+	margin-left:50px;
+	z-index:10px;
+}
+
+#cevir:hover {
+    transform: rotate(360deg);
+    width: 120px;
+    -webkit-transform: rotate(360deg);
+}
+
+#cevir2 {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: 4s;
+	margin-left:50px;
+}
+
+#cevir2:hover {
+    transform: rotate(360deg);
+    width: 120px;
+    -webkit-transform: rotate(360deg);
+}
+
+#footer-ust {
+	background:url(../images/shadow_bottom.png) no-repeat;
+	margin: 0 auto;
+	height: 15px;
+	width: 1000px;
+	margin-top:210px;
+}
+
+#footer {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 400px;
+}
+
+#footer p { 
+    font-size: 0.9em; 
+	color:#CCC;
+	line-height: 1.4em; 
+	text-align: center; 
+}
+
+#footer a {
+	color:#CCC;
+}
+
+table td {
+	padding:8;
+}
+
+#icerik-arj {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:1915px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-arj data-title {
+	font-size:24px;
+}
+
+#hakkimizda {
+	 margin-left:0px;
+	 margin-top:10px;
+	 z-index:99;
+	 margin-bottom:25;
+}
+
+#hakkimizda-aciklama {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:20px;
+	color:#333;
+	height:auto;
+	padding:20;
+	word-spacing:5;
+	padding-top:30;
+}
+
+#icerik-hakkimizda {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:1200px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-hakkimizda a {
+	text-decoration:none;
+	color:#F00;
+}
+
+#icerik-bkt {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:515px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-bkt data-title {
+	font-size:24px;
+}
+
+#iletisim {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:1115px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 z-index:-1;
+}
+
+#iletisim-map {
+	margin-bottom:15px;
+	z-index:999;
+}
+
+#iletisim-sol {
+	width:500px;
+	margin-top:-15px;
+	margin-left:5px;
+	padding-bottom:30;
+}
+
+#iletisim-sol input {
+	height:30;
+	width:150;
+}
+
+#iletisim-sag {
+	margin-left:570px;
+	padding-bottom:30;
+	margin-top:-335px;
+}
+
+.address-info li, .phone-info li, .email-info li {
+	padding:5px 5px 5px 18px;
+	line-height:25px;
+	position: relative;
+	list-style-image:url(../images/konum.png);
+}
+
+.phone-info li {
+	padding-left:22px;
+	list-style-image:url(../images/telefon.png);
+}
+
+.email-info li {
+	padding-left:26px;
+	list-style-image:url(../images/mail.png);
+}
+
+.address-info li:before {
+	font-family: FontAwesome; 
+	font-style: normal; 
+	font-weight: normal; 
+	text-decoration: inherit;
+    font-size: 20px; 
+	position: absolute; 
+	top: 5px; 
+	left: 0;
+}
+
+.phone-info li:before { 
+	font-family: FontAwesome; 
+	font-style: normal; 
+	font-weight: normal; 
+	text-decoration: inherit;
+    font-size: 17px; 
+	position: absolute; 
+	top: 5px; 
+	left: 0;
+}
+
+.email-info li:before {
+	font-family: FontAwesome; 
+	font-style: normal; 
+	font-weight: normal; 
+	text-decoration: inherit;
+    font-size: 17px; 
+	position: absolute; 
+	top: 5px; 
+	left: 0;
+}
+
+#icerik-frf {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:515px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-frf data-title {
+	font-size:24px;
+}
+
+#music {
+	margin-top:-40px;
+	margin-left:495px;
+}
+
+#icerik-sks {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:315px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-sks data-title {
+	font-size:24px;
+}
+
+#icerik-sks td {
+	padding:15;
+}
+
+#icerik-ork {
+	 margin-top:157px;
+	 border:solid;
+	 border-color:#630;
+	 border-bottom-style:double;
+	 background-color:#FFF;
+	 height:755px;
+	 width:1200px;
+	 border-radius: 10px 10px 10px 10px;
+	 opacity: 0.9;
+     filter: alpha(opacity=90);
+	 z-index:-1;
+}
+
+#icerik-ork data-title {
+	font-size:24px;
+}
